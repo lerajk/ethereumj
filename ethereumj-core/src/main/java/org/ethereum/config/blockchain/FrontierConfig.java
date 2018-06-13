@@ -28,7 +28,9 @@ import java.math.BigInteger;
 public class FrontierConfig extends OlympicConfig {
 
     public static class FrontierConstants extends Constants {
-        private static final BigInteger BLOCK_REWARD = new BigInteger("5000000000000000000");
+
+        //Changing value from 5 ETH to 100 ETH for Task 2
+        private static final BigInteger BLOCK_REWARD = new BigInteger("100000000000000000000");
 
         @Override
         public int getDURATION_LIMIT() {
